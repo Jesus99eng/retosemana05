@@ -71,12 +71,6 @@ h1 {
   align-items: center;
 }
 
-.boximagenes img {
-  padding: 20px;
-  height: 250px;
-  width: auto;
-
-}
 
 .informacion_personajes {
   width: 100%;
@@ -86,9 +80,18 @@ h1 {
   flex-direction: column;
 }
 
+.boximagenes img {
+  padding: 20px;
+  height: 250px;
+  width: auto;
+
+}
+
+
+
 .versus_text {
   font-size: 100px;
-
+  text-transform: uppercase;
   display: flex;
   justify-content: center;
   align-items: center;
