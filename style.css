@@ -6,8 +6,6 @@
 
 
 
-  
-
 }
 
 
@@ -27,8 +25,7 @@
   justify-content: start;
 }
 
-.textprincipal h1 {
-  text-transform: uppercase;
+h1 {
   font-family: "Playwrite AR", cursive;
   font-optical-sizing: auto;
 }
@@ -43,12 +40,15 @@
 .logoimagen img {
   height: 100px;
   width: auto;
+
+
 }
 
 .section_principal {
   display: flex;
   justify-content: space-around;
   margin-top: 50px;
+
 }
 
 .secciones {
@@ -56,11 +56,15 @@
 
   display: flex;
   flex-direction: column;
+
+
 }
 
 .box {
   border: solid 1px;
-  margin-bottom: 20px;
+  border-radius: 24px;
+  margin-bottom: 30px;
+
 
   display: flex;
   flex-direction: column;
